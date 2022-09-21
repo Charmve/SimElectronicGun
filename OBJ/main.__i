@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\USMART -I ..\USER -I ..\HARDWARE\OLED -I ..\HARDWARE\KEY -I ..\HARDWARE\Menu -I ..\HARDWARE\MyVariable -I ..\HARDWARE\Steer -I ..\SYSTEM\UART4 -I ..\HARDWARE\AnoTC -I ..\HARDWARE\TIM6_Base -I ..\HARDWARE\Control -I ..\HARDWARE\PID -I ..\SYSTEM\USART2 -I ..\HARDWARE\DC_Control
+-I.\RTE\_Target_1
+-IC:\Software\Keil_ARM\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-IC:\Software\Keil_ARM\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d "main.c"
